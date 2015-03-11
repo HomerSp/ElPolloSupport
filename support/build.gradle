@@ -14,7 +14,7 @@ android {
     resourcePrefix "elpollo__"
 
     defaultConfig {
-        minSdkVersion 14
+        minSdkVersion 21
         targetSdkVersion 21
         versionCode 1
         versionName version
@@ -37,7 +37,7 @@ bintray {
     configurations = ['archives']
     pkg {
         repo = "maven"
-        name = "ElPolloSupport"
+        name = "elpollo-support"
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         licenses = ["Apache-2.0"]

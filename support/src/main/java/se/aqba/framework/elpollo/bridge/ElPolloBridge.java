@@ -10,6 +10,14 @@ public class ElPolloBridge {
     private static final String PREFERENCES_FILE = "elpollo_preferences";
 
     /**
+     * Is the framework installed?
+     * @return Whether the framework is installed.
+     */
+    public static boolean isInstalled() {
+        return getVersionCode() != 0;
+    }
+
+    /**
      * Get the framework version name (1.0 for example).
      * @return The framework version name.
      */
